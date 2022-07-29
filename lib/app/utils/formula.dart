@@ -12,8 +12,9 @@ class Logic {
       return 'Нормалдуу';
     } else if (bmi > 18) {
       return 'Жакшы';
-    } else
+    } else {
       return 'Жакшы эмес';
+    }
   }
 
   Color getColors(int bmi) {
